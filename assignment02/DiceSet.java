@@ -99,7 +99,7 @@ public class DiceSet {
        throw new IllegalArgumentException("That die doesn't exist.");
      }
 
-     return -999;
+     return this.ds[dieIndex].getValue();
    }
 
   /**
